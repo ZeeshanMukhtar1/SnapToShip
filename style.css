@@ -1,0 +1,28 @@
+@import url("https://fonts.googleapis.com/css2?family=Permanent+Marker&display=swap");
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+}
+body {
+  overflow-x: hidden;
+}
+h1 {
+  font-family: "Dancing Script", cursive;
+}
+.carousel-item img {
+  width: 100%;
+  height: 80vh;
+}
+.card:hover {
+  transform: scale(1.1);
+  transition: all 0.4s ease-in-out;
+  cursor: pointer;
+}
+.card-body img {
+  min-width: 50%;
+  max-height: 200px;
+}
+.main-logo {
+  cursor: pointer;
+}
